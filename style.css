@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.header-container {
+    background-color: #d3b4ac;
+}
+
+header p, h1 {
+    color: #9d5a4d;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.header-text button {
+    background-color: #dcc9c0;
+    border: none;
+    border-radius: 7px;
+    width: 10rem;
+}
+
+.header-image {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.servicios {
+    background-color: #bc9484;
+    color: #d5beb1;
+}
+
+.servicios-text {
+    color: #9d5a4d;
+}
+
+.servicios-img {
+    background-color: #9d5a4d;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #dcc9c0;
+    color: #9d5a4d;
+}
+
+footer h4 {
+    padding-top: 10px;
+}
+
+footer p {
+    padding: 10px;
+}
+
