@@ -7,7 +7,6 @@
 
 .header-container {
     background-color: #d3b4ac;
-    padding: 1rem;
 }
 
 header p, h1 {
@@ -18,19 +17,13 @@ h1 {
     font-size: 2em;
 }
 
-.header-text button {
-    background-color: #dcc9c0;
-    border: none;
-    border-radius: 7px;
-    width: 10rem;
+.header-text {
+    padding: 10px;
 }
 
 .header-image {
     object-fit: cover;
     max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
 }
 
 .servicios {
@@ -42,10 +35,27 @@ h1 {
     color: #9d5a4d;
 }
 
-.servicios-img {
+.servicios-card {
     background-color: #9d5a4d;
-    width: 80%;
+    width: 85%;
+    height: 640px;
     margin: 0 auto;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.makeup {
+    background-image: url('./images/model-4900868_640.jpg');
+}
+
+.selfmakeup {
+    background-image: url('./images/face-5528557_640.jpg');
+}
+
+.novias {
+    background-image: url('./images/girl-in-flowers-1374223_640.jpg');
 }
 
 footer {
