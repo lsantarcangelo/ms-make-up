@@ -28,7 +28,6 @@ h1 {
 
 .servicios {
     background-color: #bc9484;
-    color: #d5beb1;
 }
 
 .servicios-text {
@@ -37,6 +36,7 @@ h1 {
 }
 
 .servicios-card {
+    color: white;
     background-color: #9d5a4d;
     width: 85%;
     height: 400px;
@@ -45,6 +45,10 @@ h1 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .makeup {
