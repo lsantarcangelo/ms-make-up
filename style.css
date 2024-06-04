@@ -14,7 +14,12 @@ header p, h1 {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.5em;
+}
+
+.secondary-title {
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 .top-header {
@@ -26,12 +31,16 @@ h1 {
     padding: 10px 15px;
 }
 
+.img-logo {
+    width: 70%;
+}
+
 .servicios-main {
     background-color: #bc9484;
 }
 
 .servicios-text {
-    color: #9d5a4d;
+    color: #86534d;
     padding: 10px 15px;
 }
 
