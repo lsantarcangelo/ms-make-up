@@ -5,6 +5,17 @@
     text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+    text-shadow: 0 0 10px rgba(248, 247, 244, 0.7);
+}
+
 .header-container {
     background-color: #d3b4ac;
 }
@@ -32,7 +43,7 @@ h1 {
 }
 
 .img-logo {
-    width: 70%;
+    width: 5rem;
 }
 
 .servicios-main {
@@ -58,6 +69,10 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.servicios-card:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .makeup {
@@ -117,3 +132,14 @@ footer p {
     padding: 10px;
 }
 
+@media (min-width: 768px) {
+    .img-logo {
+        width: 4.5rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .img-logo {
+        width: 6rem;
+    }
+}
