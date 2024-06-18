@@ -28,9 +28,14 @@ h1 {
     font-size: 1.5em;
 }
 
+h2, p {
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+}
+
 .secondary-title {
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: 600;
+    color: black;
 }
 
 .top-header {
@@ -126,6 +131,7 @@ footer {
 
 footer h4 {
     padding-top: 10px;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
 }
 
 footer p {
