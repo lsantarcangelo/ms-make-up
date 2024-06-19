@@ -29,7 +29,7 @@ h1 {
 }
 
 h2, p {
-    text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
 }
 
 .secondary-title {
@@ -93,16 +93,15 @@ h2, p {
 }
 
 .servicios-page {
-    background-color: #9d5a4d;
-    min-height: auto;
+    background-color: white;
+    min-height: 600px;
 }
 
 .servicios-detail {
-    color: beige;
+    color: black;
     width: 85%;
-
     margin: 0 auto;
-    margin-top: 1.2rem;
+    margin-top: 5rem;
     margin-bottom: 1.2rem;
     padding-top: 1rem;
 }
@@ -116,8 +115,10 @@ h2, p {
 }
 
 .makeup-detail {
+    margin-top: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    text-align: left;
 }
 
 ul {
@@ -142,10 +143,18 @@ footer p {
     .img-logo {
         width: 4.5rem;
     }
+
+    .servicios-detail {
+        width: 40%;
+    }
 }
 
 @media (min-width: 1440px) {
     .img-logo {
         width: 6rem;
+    }
+
+    .servicios-detail {
+        width: 25%;
     }
 }
