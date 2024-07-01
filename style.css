@@ -48,7 +48,7 @@ h2, p {
 }
 
 .img-logo {
-    width: 5rem;
+    width: 7rem;
 }
 
 .servicios-main {
@@ -104,6 +104,7 @@ h2, p {
     margin-top: 5rem;
     margin-bottom: 1.2rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .servicios-detail h3 {
@@ -139,9 +140,32 @@ footer p {
     padding: 10px;
 }
 
+.wsp{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    border-radius: 100px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 10px;
+
+}
+
+.insta, .youtube {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    border-radius: 100px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
 @media (min-width: 768px) {
     .img-logo {
-        width: 4.5rem;
+        width: 6rem;
     }
 
     .servicios-detail {
@@ -151,7 +175,7 @@ footer p {
 
 @media (min-width: 1440px) {
     .img-logo {
-        width: 6rem;
+        width: 7rem;
     }
 
     .servicios-detail {
